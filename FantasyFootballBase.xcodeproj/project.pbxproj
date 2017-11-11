@@ -1,0 +1,411 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6F1014F11E7582850070213B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F1014F01E7582850070213B /* AppDelegate.swift */; };
+		6F1014F31E7582850070213B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F1014F21E7582850070213B /* ViewController.swift */; };
+		6F1014F61E7582850070213B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6F1014F41E7582850070213B /* Main.storyboard */; };
+		6F1014F81E7582850070213B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6F1014F71E7582850070213B /* Assets.xcassets */; };
+		6F1014FB1E7582850070213B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6F1014F91E7582850070213B /* LaunchScreen.storyboard */; };
+		6F1015031E75AB1E0070213B /* FantasyCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F1015021E75AB1E0070213B /* FantasyCell.swift */; };
+		6F1015051E75AEA40070213B /* Player.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F1015041E75AEA40070213B /* Player.swift */; };
+		6F1015071E75C3830070213B /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F1015061E75C3830070213B /* Constants.swift */; };
+		6F9DA78A1E78734F0036BD5F /* Team.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F9DA7891E78734F0036BD5F /* Team.swift */; };
+		6F9DA78C1E92E8350036BD5F /* PlayerDetailsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F9DA78B1E92E8350036BD5F /* PlayerDetailsVC.swift */; };
+		999339A136CA9039016DC876 /* Pods_FantasyFootballBase.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8FD1ED03340D4AE622994BE5 /* Pods_FantasyFootballBase.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		6F1014ED1E7582850070213B /* FantasyFootballBase.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FantasyFootballBase.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6F1014F01E7582850070213B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		6F1014F21E7582850070213B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		6F1014F51E7582850070213B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		6F1014F71E7582850070213B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6F1014FA1E7582850070213B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		6F1014FC1E7582850070213B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6F1015021E75AB1E0070213B /* FantasyCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FantasyCell.swift; sourceTree = "<group>"; };
+		6F1015041E75AEA40070213B /* Player.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Player.swift; sourceTree = "<group>"; };
+		6F1015061E75C3830070213B /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		6F9DA7891E78734F0036BD5F /* Team.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Team.swift; sourceTree = "<group>"; };
+		6F9DA78B1E92E8350036BD5F /* PlayerDetailsVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlayerDetailsVC.swift; sourceTree = "<group>"; };
+		8FD1ED03340D4AE622994BE5 /* Pods_FantasyFootballBase.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FantasyFootballBase.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DCC317AB9584E5DF575E554F /* Pods-FantasyFootballBase.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FantasyFootballBase.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FantasyFootballBase/Pods-FantasyFootballBase.debug.xcconfig"; sourceTree = "<group>"; };
+		FE2BBFCAD35561E05AB227DC /* Pods-FantasyFootballBase.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FantasyFootballBase.release.xcconfig"; path = "Pods/Target Support Files/Pods-FantasyFootballBase/Pods-FantasyFootballBase.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6F1014EA1E7582840070213B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				999339A136CA9039016DC876 /* Pods_FantasyFootballBase.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6F1014E41E7582840070213B = {
+			isa = PBXGroup;
+			children = (
+				6F1014EF1E7582850070213B /* FantasyFootballBase */,
+				6F1014EE1E7582850070213B /* Products */,
+				CC76772C1E482D392490908E /* Pods */,
+				B77212F90894A76DC340CEB5 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		6F1014EE1E7582850070213B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6F1014ED1E7582850070213B /* FantasyFootballBase.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6F1014EF1E7582850070213B /* FantasyFootballBase */ = {
+			isa = PBXGroup;
+			children = (
+				6F1014F01E7582850070213B /* AppDelegate.swift */,
+				6F1014F21E7582850070213B /* ViewController.swift */,
+				6F1015041E75AEA40070213B /* Player.swift */,
+				6F1014F41E7582850070213B /* Main.storyboard */,
+				6F9DA78B1E92E8350036BD5F /* PlayerDetailsVC.swift */,
+				6F1015021E75AB1E0070213B /* FantasyCell.swift */,
+				6F1014F71E7582850070213B /* Assets.xcassets */,
+				6F1014F91E7582850070213B /* LaunchScreen.storyboard */,
+				6F1014FC1E7582850070213B /* Info.plist */,
+				6F1015061E75C3830070213B /* Constants.swift */,
+				6F9DA7891E78734F0036BD5F /* Team.swift */,
+			);
+			path = FantasyFootballBase;
+			sourceTree = "<group>";
+		};
+		B77212F90894A76DC340CEB5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8FD1ED03340D4AE622994BE5 /* Pods_FantasyFootballBase.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CC76772C1E482D392490908E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				DCC317AB9584E5DF575E554F /* Pods-FantasyFootballBase.debug.xcconfig */,
+				FE2BBFCAD35561E05AB227DC /* Pods-FantasyFootballBase.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6F1014EC1E7582840070213B /* FantasyFootballBase */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6F1014FF1E7582850070213B /* Build configuration list for PBXNativeTarget "FantasyFootballBase" */;
+			buildPhases = (
+				835F930FDA44F63A4E047818 /* [CP] Check Pods Manifest.lock */,
+				6F1014E91E7582840070213B /* Sources */,
+				6F1014EA1E7582840070213B /* Frameworks */,
+				6F1014EB1E7582840070213B /* Resources */,
+				0CC6B3EC6ADC19C4625E8924 /* [CP] Embed Pods Frameworks */,
+				DB70EE268FFE14C6C67CCE4A /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FantasyFootballBase;
+			productName = FantasyFootballBase;
+			productReference = 6F1014ED1E7582850070213B /* FantasyFootballBase.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6F1014E51E7582840070213B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0800;
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = Harris;
+				TargetAttributes = {
+					6F1014EC1E7582840070213B = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = N75U5E5K55;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 6F1014E81E7582840070213B /* Build configuration list for PBXProject "FantasyFootballBase" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6F1014E41E7582840070213B;
+			productRefGroup = 6F1014EE1E7582850070213B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6F1014EC1E7582840070213B /* FantasyFootballBase */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6F1014EB1E7582840070213B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6F1014FB1E7582850070213B /* LaunchScreen.storyboard in Resources */,
+				6F1014F81E7582850070213B /* Assets.xcassets in Resources */,
+				6F1014F61E7582850070213B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0CC6B3EC6ADC19C4625E8924 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FantasyFootballBase/Pods-FantasyFootballBase-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		835F930FDA44F63A4E047818 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		DB70EE268FFE14C6C67CCE4A /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FantasyFootballBase/Pods-FantasyFootballBase-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6F1014E91E7582840070213B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6F9DA78A1E78734F0036BD5F /* Team.swift in Sources */,
+				6F1015071E75C3830070213B /* Constants.swift in Sources */,
+				6F1015051E75AEA40070213B /* Player.swift in Sources */,
+				6F1014F31E7582850070213B /* ViewController.swift in Sources */,
+				6F1015031E75AB1E0070213B /* FantasyCell.swift in Sources */,
+				6F9DA78C1E92E8350036BD5F /* PlayerDetailsVC.swift in Sources */,
+				6F1014F11E7582850070213B /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		6F1014F41E7582850070213B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6F1014F51E7582850070213B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		6F1014F91E7582850070213B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6F1014FA1E7582850070213B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6F1014FD1E7582850070213B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6F1014FE1E7582850070213B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6F1015001E7582850070213B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DCC317AB9584E5DF575E554F /* Pods-FantasyFootballBase.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = N75U5E5K55;
+				INFOPLIST_FILE = FantasyFootballBase/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Harris.FantasyFootballBase;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		6F1015011E7582850070213B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FE2BBFCAD35561E05AB227DC /* Pods-FantasyFootballBase.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = N75U5E5K55;
+				INFOPLIST_FILE = FantasyFootballBase/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Harris.FantasyFootballBase;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6F1014E81E7582840070213B /* Build configuration list for PBXProject "FantasyFootballBase" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6F1014FD1E7582850070213B /* Debug */,
+				6F1014FE1E7582850070213B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6F1014FF1E7582850070213B /* Build configuration list for PBXNativeTarget "FantasyFootballBase" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6F1015001E7582850070213B /* Debug */,
+				6F1015011E7582850070213B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6F1014E51E7582840070213B /* Project object */;
+}
